@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://admin:codecrush@ds029831.mongolab.com:29831/codecrush')
+mongoose.connect('mongodb://localhost/news')
 require('./models/Posts');
 require('./models/Comments');
 
