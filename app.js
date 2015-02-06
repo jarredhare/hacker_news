@@ -1,3 +1,8 @@
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://admin:codecrush@ds029831.mongolab.com:29831/codecrush')
+require('./models/Posts');
+require('./models/Comments');
+
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
